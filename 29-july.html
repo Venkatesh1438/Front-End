@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body><center>
+    <h1>APPLICATION FORM</h1>
+    <form action="" style="background-color: rgb(25, 212, 212);">
+        <fieldset>
+            <legend>Application</legend>
+            <table>
+                <tr>
+                    <td>
+                    <label for="First Name">First Name<sup style="color: red;">*</sup>: </label>
+                    <input type="text" name="Last Name" id="Last Name" autofocus required>
+                    </td>
+                    <td>
+                    <label for="Last Name">Last Name: </label>
+                    <input type="text" name="Last Name" id="Last Name" autofocus>
+                    </td>
+                    </tr>
+                    <tr><td>
+                    <label for="Date Of Birth">Date Of Birth<sup style="color: red;">*</sup>: </label>
+                    <input type="date" name="Date Of Birth" id="Date Of Birth" autofocus required></td>
+                    <td>
+                    <label for="Age">Age<sup style="color: red;">*</sup>: </label>
+                    <input type="number" name="Age" id="Age" autofocus required>
+                    </td>
+                    </tr>
+                    <tr><td>
+                    Gender: 
+                    <select name="Gender" id="Gender"><p>Gender: 
+                    <option value="" disabled selected>---Select---</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    </select>
+                    </td>
+                    <td>
+                     <label for="E-mail">E-mail<sup style="color: red;">*</sup>: </label>
+                    <input type="email" name="E-mail" id="E-mail" autofocus required>
+                    </td></tr>
+                    <tr><td>
+                    <p>Postitions available:
+                    <input type="checkbox" id="Front End" name="Front End" value="Front End">
+                    <label for="Front End">Front End</label>                    
+                    <input type="checkbox" id="Back End" name="Back End" value="Back End">
+                    <label for="Back End">Back End</label>
+                    <input type="checkbox" id="Full Stack" name="Full Stack" value="Full Stack">
+                    <label for="Full Stack">Full Stack</label></p>
+                    </td></tr>
+                    <tr><td>
+                    <p>Programming Languages:
+                    <input type="radio" id="Html" name="Html" value="Html">
+                    <label for="Html">Html</label>                    
+                    <input type="radio" id="Python" name="Python" value="Python">
+                    <label for="Python">Python</label>
+                    <input type="radio" id="My SQL" name="My SQL" value="My SQL">
+                    <label for="My SQL">My SQL</label></p>
+                    </td></tr>
+                    <tr><td>
+                    <label for="Password">Password<sup style="color: red;">*</sup>: </label>
+                    <input type="password" name="Password" id="Password" autofocus required placeholder="enter password">
+                    </td>
+                    <td>
+                    <label for="re-enter Password">re-enter Password<sup style="color: red;">*</sup>: </label>
+                    <input type="re-enter password" name="re-enter Password" id="re-enter assword" autofocus required placeholder="re-enter enter password">
+                    </td></tr>
+                    </table>
+
+                    <input type="submit" value="submit">
+                    <input type="Reset" value="Reset">
+        </fieldset>   
+    </form>
+    </center>
+</body>
+</html>
